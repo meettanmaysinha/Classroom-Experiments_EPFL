@@ -1,0 +1,109 @@
+import nbformat as nbf
+nb = nbf.v4.new_notebook()
+
+
+text1 = """\
+#CAR COMPANY SUCCESS
+# Instructions / Notes: Read these carefully
+Read and execute each cell in order, without skipping forward.
+You **may** create new Jupyter notebook cells to use for e.g. testing, debugging, exploring, etc.- this is encouraged in fact! 
+**Just make sure that your final answer dataframes and answers use the set variables outlined below.**
+Have fun!"""
+
+code1 = """\
+# Run the following to import necessary packages and import dataset. Do not use any additional plotting libraries.
+import pandas as pd
+import numpy as np
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+import matplotlib
+import matplotlib.pyplot as plt
+%matplotlib inline
+matplotlib.style.use('ggplot')
+
+d1 = "AQ_companyA.csv"
+d2 = "AQ_companyB.csv"
+d3 = "AQ_companyC.csv"
+d4 = "AQ_companyD.csv"
+
+df1 = pd.read_csv(d1)
+df2 = pd.read_csv(d2)
+df3 = pd.read_csv(d3)
+df4 = pd.read_csv(d4)
+df1.head(n=5)"""
+
+
+text2 = """\
+Each of the 4 dataframes loaded above represents dataset of 4 car companies A, B, C, D from 182 sites all over the world. For each site,  X: total number of units sold (in 100’s), Y: employee satisfaction on a scale of 1 to 100. Check the descriptive statistics below."""
+
+code2 = """\
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+#You will receive 9 outputs: total number of data points, mean, standard deviation, minimum value, 1st quartile (25%), median (50%), 3rd quartile (75%), maximum value for both variables, correlation between the variables
+df1.describe()
+df1.corr(method='pearson')"""
+
+code3 = """\
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+#You will receive 9 outputs: total number of data points, mean, standard deviation, minimum value, 1st quartile (25%), median (50%), 3rd quartile (75%), maximum value for both variables, correlation between the variables
+df2.describe()
+df2.corr(method='pearson')"""
+
+code4 = """\
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+#You will receive 9 outputs: total number of data points, mean, standard deviation, minimum value, 1st quartile (25%), median (50%), 3rd quartile (75%), maximum value for both variables, correlation between the variables
+df3.describe()
+df3.corr(method='pearson')"""
+
+code5 = """\
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+#You will receive 9 outputs: total number of data points, mean, standard deviation, minimum value, 1st quartile (25%), median (50%), 3rd quartile (75%), maximum value for both variables, correlation between the variables
+df4.describe()
+df4.corr(method='pearson')"""
+
+
+
+text3 = """\
+Can you identify a dataset that is likely to represent the most successful car company? Set the following variable to 'Yes' or 'No'."""
+
+code6 = """\
+most_successful_car_company_exists = None"""
+
+text4 = """\
+If you answered 'Yes' which dataset is likely to represent the most successful car company? Set the following variable to 1, 2, 3, or 4. Also provide a brief reasoning behind your answer selection"""
+
+code7 = """\
+most_successful_car_company = None
+most_successful_car_company_reasoning = "Write your reasoning here" """
+
+text5 = """\
+#CLUE
+**An Anscombe's Quartet has 4 datasets with nearly identical descriptive statistics but with very different appearance when plotted: https://en.wikipedia.org/wiki/Anscombe%27s_quartet -- Try plotting each dataset.**
+If this clue changes your answer, try again below. Otherwise, if you are confident in your answer above, leave the following untouched."""
+
+
+code8 = """\
+#Show your revised analysis below
+most_successful_car_company_exists = None
+most_successful_car_company = None
+most_successful_car_company_reasoning = "Write your reasoning here" """
+
+nb['cells'] = [nbf.v4.new_markdown_cell(text1),
+               nbf.v4.new_code_cell(code1),
+               nbf.v4.new_markdown_cell(text2),
+               nbf.v4.new_code_cell(code2),
+               nbf.v4.new_code_cell(code3),
+               nbf.v4.new_code_cell(code4),
+               nbf.v4.new_code_cell(code5),
+               nbf.v4.new_markdown_cell(text3),
+               nbf.v4.new_code_cell(code6),
+               nbf.v4.new_markdown_cell(text4),
+               nbf.v4.new_code_cell(code7),
+               nbf.v4.new_markdown_cell(text5),
+               nbf.v4.new_code_cell(code8)]
+
+
+nbf.write(nb, 'Task AQ_Condition 1.ipynb')
