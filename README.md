@@ -6,7 +6,7 @@ Objectives: Compare the relative efficacies of success-driven or failure-driven 
 AQ - Anscombe Quartet Task, 
 SC - Spurious Correlation Task
 
-DA - Direct Application Post-test/Assessment Question,
-NT - Near Transfer Post-test/Assessment Question,
-IT - Intermediate Transfer Post-test/Assessment Question,
-FT - Far Transfer Post-test/Assessment Question
+DA - Direct Application Post-test Question,
+NT - Near Transfer Post-test Question,
+IT - Intermediate Transfer Post-test Question,
+FT - Far Transfer Post-test Question
