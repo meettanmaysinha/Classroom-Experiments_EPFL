@@ -21,14 +21,14 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 matplotlib.style.use('ggplot')
 
-d1 = "AQ_datasetA.csv"
-d2 = "AQ_datasetB.csv"
-d3 = "AQ_datasetC.csv"
+dA = "AQ_datasetA.csv"
+dB = "AQ_datasetB.csv"
+dC = "AQ_datasetC.csv"
 
-df1 = pd.read_csv(d1)
-df2 = pd.read_csv(d2)
-df3 = pd.read_csv(d3)
-df1.head(n=5)"""
+dfA = pd.read_csv(dA)
+dfB = pd.read_csv(dB)
+dfC = pd.read_csv(dC)
+dfA.head(n=5)"""
 
 
 text2 = """\
@@ -38,19 +38,19 @@ code2 = """\
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
 #You will receive 8 outputs: total number of data points, mean, standard deviation, minimum value, 1st quartile (25%), median (50%), 3rd quartile (75%), maximum value for both variables
-df1.describe()"""
+dfA.describe()"""
 
 code3 = """\
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
 #You will receive 8 outputs: total number of data points, mean, standard deviation, minimum value, 1st quartile (25%), median (50%), 3rd quartile (75%), maximum value for both variables
-df2.describe()"""
+dfB.describe()"""
 
 code4 = """\
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
 #You will receive 8 outputs: total number of data points, mean, standard deviation, minimum value, 1st quartile (25%), median (50%), 3rd quartile (75%), maximum value for both variables 
-df3.describe()"""
+dfC.describe()"""
 
 
 text3 = """\
