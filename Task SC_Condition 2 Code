@@ -33,7 +33,7 @@ Identify **meaningful** relationships among pairs of columns in this dataset. Ap
 
 
 code2 = """\
-# relationship.append(['column_x', 'column_y'])
+# relationships.append(['column_x', 'column_y'])
 relationships = []
 relationships_reasoning = " "
 
@@ -50,7 +50,7 @@ If this clue changes your answer, try again below. Otherwise, if you are confide
 
 
 code3 = """\
-# meaningful_relationship.append(['column_x', 'column_y'])
+# meaningful_relationships.append(['column_x', 'column_y'])
 relationships_revised = []
 relationships_reasoning_revised = " "
 
