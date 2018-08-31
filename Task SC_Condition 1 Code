@@ -42,6 +42,12 @@ relationships.sort()
 print(relationships)"""
 
 
+code4 = """\
+#If you need to implement any piece of code before finalizing your answer and reasoning, use this space. Don't erase your code segment from the workbook. In case you need any help with syntax, documentation file for the pandas python library (with search function in bottom left corner) is available at https://pandas.pydata.org/pandas-docs/stable/
+...
+...
+..."""
+
 
 text3 = """\
 #CLUE
@@ -58,12 +64,20 @@ relationships_reasoning_revised = " "
 relationships_revised.sort()
 print(relationships_revised) """
 
+code5 = """\
+#If you need to implement any piece of code before finalizing your answer and reasoning, use this space. Don't erase your code segment from the workbook. In case you need any help with syntax, documentation file for the pandas python library (with search function in bottom left corner) is available at https://pandas.pydata.org/pandas-docs/stable/
+...
+...
+..."""
+
 nb['cells'] = [nbf.v4.new_markdown_cell(text1),
                nbf.v4.new_code_cell(code1),
                nbf.v4.new_markdown_cell(text2),
                nbf.v4.new_code_cell(code2),
+	       nbf.v4.new_code_cell(code4),
                nbf.v4.new_markdown_cell(text3),
-               nbf.v4.new_code_cell(code3)]
+               nbf.v4.new_code_cell(code3),
+               nbf.v4.new_code_cell(code5)]
 
 
 nbf.write(nb, 'Task SC_Condition 1.ipynb')
