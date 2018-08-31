@@ -1,0 +1,74 @@
+import nbformat as nbf
+nb = nbf.v4.new_notebook()
+
+
+text1 = """\
+#WEALTH MANAGEMENT
+# Instructions / Notes: Read these carefully
+Read and execute each cell in order, without skipping forward.
+You **may** create new Jupyter notebook cells to use for e.g. testing, debugging, exploring, etc.- this is encouraged in fact! 
+**Just make sure that your final answer dataframes and answers use the set variables outlined below.**
+Have fun!"""
+
+code1 = """\
+# Run the following to import necessary packages and import dataset. Do not use any additional plotting libraries.
+import pandas as pd
+import numpy as np
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+import matplotlib
+import matplotlib.pyplot as plt
+%matplotlib inline
+matplotlib.style.use('ggplot')
+
+dA = "AQ_DA assessment_SalarySavings_cantonA.csv"
+dB = "AQ_DA assessment_SalarySavings_cantonB.csv"
+
+dfA = pd.read_csv(dA)
+dfB = pd.read_csv(dB)
+dfA.head(n=5)"""
+
+
+text2 = """\
+Each of the 2 dataframes loaded above represents total yearly salary and total yearly savings of people from 2 cantons A and B. Check some descriptive statistics for these datasets below."""
+
+code2 = """\
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+#You will receive 8 outputs: total number of data points, mean, standard deviation, minimum value, 1st quartile (25%), median (50%), 3rd quartile (75%), maximum value for both variables
+dfA.describe()"""
+
+code3 = """\
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+#You will receive 8 outputs: total number of data points, mean, standard deviation, minimum value, 1st quartile (25%), median (50%), 3rd quartile (75%), maximum value for both variables
+dfB.describe()"""
+
+
+
+text3 = """\
+People from which canton seem wiser in their long-term financial planning? Also provide a brief reasoning behind your answer selection"""
+
+code4 = """\
+canton = "Set this to A or B"
+canton_reasoning = "Write your reasoning here" """
+
+code5 = """\
+#If you need to implement any piece of code before finalizing your answer and reasoning, use this space. Don't erase your code segment from the workbook. In case you need any help with syntax, documentation file for the pandas python library (with search function in bottom left corner) is available at https://pandas.pydata.org/pandas-docs/stable/
+...
+...
+..."""
+
+
+
+nb['cells'] = [nbf.v4.new_markdown_cell(text1),
+               nbf.v4.new_code_cell(code1),
+               nbf.v4.new_markdown_cell(text2),
+               nbf.v4.new_code_cell(code2),
+               nbf.v4.new_code_cell(code3),
+               nbf.v4.new_markdown_cell(text3),
+               nbf.v4.new_code_cell(code4),
+               nbf.v4.new_code_cell(code5)]
+
+
+nbf.write(nb, 'AQ_DA assessment.ipynb')
