@@ -39,26 +39,30 @@ Each of the 4 dataframes loaded above represents potential scenarios of wealth d
 code2 = """\
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
-#You will receive 8 outputs: total number of data points, mean, standard deviation, minimum value, 1st quartile (25%), median (50%), 3rd quartile (75%), maximum value for both variables
-dfA.describe()"""
+#You will receive 2 outputs: median, inter-quartile range (3rd quartile (75%) - 1st quartile (25%))
+dfA.median()
+dfA.quantile(0.75) - dfA.quantile(0.25)"""
 
 code3 = """\
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
-#You will receive 8 outputs: total number of data points, mean, standard deviation, minimum value, 1st quartile (25%), median (50%), 3rd quartile (75%), maximum value for both variables
-dfB.describe()"""
+#You will receive 2 outputs: median, inter-quartile range (3rd quartile (75%) - 1st quartile (25%))
+dfB.median()
+dfB.quantile(0.75) - dfB.quantile(0.25)"""
 
 code4 = """\
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
-#You will receive 8 outputs: total number of data points, mean, standard deviation, minimum value, 1st quartile (25%), median (50%), 3rd quartile (75%), maximum value for both variables
-dfC.describe()"""
+#You will receive 2 outputs: median, inter-quartile range (3rd quartile (75%) - 1st quartile (25%))
+dfC.median()
+dfC.quantile(0.75) - dfC.quantile(0.25)"""
 
 code5 = """\
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
-#You will receive 8 outputs: total number of data points, mean, standard deviation, minimum value, 1st quartile (25%), median (50%), 3rd quartile (75%), maximum value for both variables
-dfD.describe()"""
+#You will receive 2 outputs: median, inter-quartile range (3rd quartile (75%) - 1st quartile (25%))
+dfD.median()
+dfD.quantile(0.75) - dfD.quantile(0.25)"""
 
 
 

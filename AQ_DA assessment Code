@@ -35,14 +35,18 @@ Each of the 2 dataframes loaded above represents total yearly salary and total y
 code2 = """\
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
-#You will receive 8 outputs: total number of data points, mean, standard deviation, minimum value, 1st quartile (25%), median (50%), 3rd quartile (75%), maximum value for both variables
-dfA.describe()"""
+#You will receive 3 outputs: mean, standard deviation and Pearson correlation between variables
+dfA.mean()
+dfA.std()
+dfA.corr(method='pearson')"""
 
 code3 = """\
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
-#You will receive 8 outputs: total number of data points, mean, standard deviation, minimum value, 1st quartile (25%), median (50%), 3rd quartile (75%), maximum value for both variables
-dfB.describe()"""
+#You will receive 3 outputs: mean, standard deviation and Pearson correlation between variables
+dfB.mean()
+dfB.std()
+dfB.corr(method='pearson')"""
 
 
 
