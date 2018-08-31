@@ -88,11 +88,13 @@ answer_reasoning = "Write your reasoning here"
 
 
 
-#To propose the association structure among "genotype of parent (GP)", "genotype of offspring (GO)", "phenotype pf parent (PP)", "phenotype of offspring (PO)", consider GP, GO, PP and PO as nodes of a directed graph. You will have to create the list of directional edges in the code statement below. As an example, if we have edgelist = [('PP', 'GP'), ('GO', 'PP')], this means there is a directed link between PP and GP (PP -> GP) and between GO and PP (GO -> PP), and no other directed links exist in the graph structure. Modify the edge list below to establish directed links for your proposed association structure. 
+#To propose the association structure, modify the edge list below to establish directed links for your proposed association structure.
+
+#Example:  edgelist = [('PP', 'GP'), ('GO', 'PP')]  means there is a directed link between PP and GP (PP -> GP) and between GO and PP (GO -> PP), and no other directed links exist in the graph structure. Modify the edge list below to establish directed links for your proposed association structure. 
+
 edgelist = [<Write your edgelist here in a similar format as the example above>]    
 
 
- 
 
 # Building your proposed directed graph. Do not touch this code segment!!
 G = nx.DiGraph()
