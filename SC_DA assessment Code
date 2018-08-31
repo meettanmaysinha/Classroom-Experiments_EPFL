@@ -28,7 +28,7 @@ dfA.head(n=5)"""
 
 
 text2 = """\
-The dataframe loaded above represents the incidence of tuberculosis (TB) across various cities in a canton (expressed as percentage from 0 to 100), and the foul (unpleasant) odors in these cities as reported by residents (for e.g., those coming from industrial waste, medical waste and other household trash)" (measured on a scale of 0 to 1). Check some descriptive statistics for these datasets below."""
+The dataframe loaded above represents the **"incidence of tuberculosis (TB)" across various cities in a canton (expressed as percentage from 0 to 100), and the "foul (unpleasant) odors in these cities as reported by residents (for e.g., those coming from industrial waste, medical waste and other household trash)" (measured on a scale of 0 to 1). Check some descriptive statistics for this dataset below."""
 
 code2 = """\
 from IPython.core.interactiveshell import InteractiveShell
@@ -41,17 +41,17 @@ dfA.describe()"""
 text3 = """\
 Officials of the canton have just received some raw medical data from the health department regarding the incidence of tuberculosis (TB) in various cities. Their goal is to figure out how to reduce the incidence of tuberculosis (TB) in the population. In order to do so, they first performed a correlational analysis of different data sources available to them from the canton, and found that there existed high positive correlation between the "incidence of tuberculosis (TB)" across various cities in the canton (expressed as percentage from 0 to 100), and "the foul (unpleasant) odors in the city as reported by residents (for e.g., those coming from industrial waste, medical waste and other household trash)" (measured on a scale of 0 to 1). In order to bring about change, a group of officials come up with the following ideas among which they should prioritize: 
 
-A) Strategy A: implementing good urban planning techniques focusing on air-flow manipulation, green spaces and pedestrian-friendly streets. 
+A) **Strategy A**: implementing good urban planning techniques focusing on air-flow manipulation, green spaces and pedestrian-friendly streets. 
 
-B) Strategy B: launching programs to spray air fresheners with pleasant odors (for e.g., lavender, fruity, BBQ, baked etc) in different areas of the city. 
+B) **Strategy B**: launching programs to spray air fresheners with pleasant odors (for e.g., lavender, fruity, BBQ, baked etc) in different areas of the city. 
 
-C) Strategy C: raising awareness regarding good hygiene practices in the city. 
+C) **Strategy C**: raising awareness regarding good hygiene practices in the city. 
 
-D) Strategy D: installing indoor recycling stations to improve waste management in the city. 
+D) **Strategy D**: installing indoor recycling stations to improve waste management in the city. 
 
-E) Strategy E: improving availability of vaccination in medical stores across the city. 
+E) **Strategy E**: improving availability of vaccination in medical stores across the city. 
 
-F) Strategy F: launching programs for chemical treatment of air in different areas of the city. 
+F) **Strategy F**: launching programs for chemical treatment of air in different areas of the city. 
 
 Rank order the strategies from the most to least appropriate for reducing the incidence of tuberculosis (TB), based on the evidence about the positive correlation presented at the beginning of the question."""
 
