@@ -28,7 +28,7 @@ dfA.head(n=5)"""
 
 
 text2 = """\
-The dataframe loaded above represents the **"incidence of tuberculosis (TB)" across various cities in a canton (expressed as percentage from 0 to 100), and the "foul (unpleasant) odors in these cities as reported by residents (for e.g., those coming from industrial waste, medical waste and other household trash)" (measured on a scale of 0 to 1). Check some descriptive statistics for this dataset below."""
+The dataframe loaded above represents the "incidence of tuberculosis (TB)" across various cities in a canton (expressed as percentage from 0 to 100), and the "foul (unpleasant) odors in these cities as reported by residents (for e.g., those coming from industrial waste, medical waste and other household trash)" (measured on a scale of 0 to 1). Check some descriptive statistics for this dataset below."""
 
 code2 = """\
 from IPython.core.interactiveshell import InteractiveShell
