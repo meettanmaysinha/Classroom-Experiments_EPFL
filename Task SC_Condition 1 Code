@@ -52,7 +52,7 @@ code4 = """\
 text3 = """\
 #CLUE
 **Read more about statistical dependence among variables here: https://en.wikipedia.org/wiki/Correlation_and_dependence**
-If this clue changes your answer, try again below. Otherwise, if you are confident in your answer above, leave the following untouched."""
+. If this clue changes your answer, try again below. Otherwise, if you are confident in your answer above, leave the following untouched."""
 
 
 code3 = """\
