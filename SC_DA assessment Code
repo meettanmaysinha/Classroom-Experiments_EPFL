@@ -33,7 +33,7 @@ The dataframe loaded above represents the "incidence of tuberculosis (TB)" acros
 code2 = """\
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
-#You will receive 8 outputs: total number of data points, mean, standard deviation, minimum value, 1st quartile (25%), median (50%), 3rd quartile (75%), maximum value for both variables
+#You will receive 9 outputs: total number of data points, mean, standard deviation, minimum value, 1st quartile (25%), median (50%), 3rd quartile (75%), maximum value for both variables, Pearson's correlation between variables
 dfA.describe()
 dfA.corr(method='pearson')"""
 
