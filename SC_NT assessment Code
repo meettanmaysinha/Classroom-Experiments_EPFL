@@ -71,8 +71,15 @@ code2 = """\
 #You can use the biological notation of representing dominant alleles by capital letters and recessive alleles by small letters (e.g., A/a for height, B/b for hair color) to work with the question.
 
 
+#Based on your inferences about dominant and recessive alleles for height and hair color from the observations presented in the report, change the variables below accordingly.
+dominant allele_height = "choose from short or tall"
+recessive allele_height = "choose from short or tall"
+dominant allele_haircolor = "choose from black or grey"
+recessive allele_haircolor = "choose from black or grey"
 
 
+
+#Change the variable below to indicate whether you think that the correlation between phenotype of the parents and phenotype of the offspring is meaningful
 is_correlation_meaningful = "Set this to Yes or No"
 
 
