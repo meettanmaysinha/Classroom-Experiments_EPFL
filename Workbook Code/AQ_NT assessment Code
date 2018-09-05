@@ -24,17 +24,15 @@ matplotlib.style.use('ggplot')
 dA = "AQ_NT assessment_scenarioA.csv"
 dB = "AQ_NT assessment_scenarioB.csv"
 dC = "AQ_NT assessment_scenarioC.csv"
-dD = "AQ_NT assessment_scenarioD.csv"
 
 dfA = pd.read_csv(dA)
 dfB = pd.read_csv(dB)
 dfC = pd.read_csv(dC)
-dfD = pd.read_csv(dD)
 dfA.head(n=5)"""
 
 
 text2 = """\
-Each of the 4 dataframes loaded above represents potential scenarios of wealth distribution in the city (in 100's). Check the box-plot for these datasets below."""
+Each of the 4 dataframes loaded above represents potential scenarios of wealth distribution in the city (in 100's). Run the cells to obtain the box-plot for these datasets below."""
 
 code2 = """\
 from IPython.core.interactiveshell import InteractiveShell
@@ -57,20 +55,12 @@ InteractiveShell.ast_node_interactivity = "all"
 dfC.boxplot()
 plt.show()"""
 
-code5 = """\
-from IPython.core.interactiveshell import InteractiveShell
-InteractiveShell.ast_node_interactivity = "all"
-#You will receive the visualization of box-plot as an output, which is a method for graphically depicting groups of numerical data through their quartiles.
-dfD.boxplot()
-plt.show()"""
-
-
 
 text3 = """\
  A new mayor has recently been elected by residents of the city. This mayor is a firm believer in economic theory of social organization, which says that the means of making, moving, and trading wealth should be owned or controlled by the community as a whole. Rank order the datasets reflecting potential scenarios of wealth distribution in the city (in 100's), from the most representative to the least representative of the mayor's socialist ideology. Also provide a brief reasoning behind your answer selection"""
 
 code6 = """\
-scenario_ordering = "Set this to the ordering of scenarios (for e.g., ACBD, BADC etc)"
+scenario_ordering = "Set this to the ordering of scenarios (for e.g., BAC, CBA etc)"
 scenario_ordering_reasoning = "Write your reasoning here" """
 
 code7 = """\
@@ -87,7 +77,6 @@ nb['cells'] = [nbf.v4.new_markdown_cell(text1),
                nbf.v4.new_code_cell(code2),
                nbf.v4.new_code_cell(code3),
 	       nbf.v4.new_code_cell(code4),
-               nbf.v4.new_code_cell(code5),
                nbf.v4.new_markdown_cell(text3),
                nbf.v4.new_code_cell(code6),
                nbf.v4.new_code_cell(code7)]
