@@ -21,9 +21,9 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 matplotlib.style.use('ggplot')
 
-dA = "AQ_datasetA.csv"
-dB = "AQ_datasetB.csv"
-dC = "AQ_datasetC.csv"
+dA = "AQ_problem-solving-task_datasetA.csv"
+dB = "AQ_problem-solving-task_datasetB.csv"
+dC = "AQ_problem-solving-task_datasetC.csv"
 
 dfA = pd.read_csv(dA)
 dfB = pd.read_csv(dB)
