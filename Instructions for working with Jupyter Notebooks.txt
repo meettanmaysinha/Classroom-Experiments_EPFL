@@ -1,0 +1,55 @@
+You will need “Jupyter Notebook” to work with these tasks. It is an executable document that can be run on a web browser and contains both code and rich text elements, such as figures, links, equations.
+You can programmatically work with the workbook using Python.
+
+
+1. Prerequisites to Run Jupyter Notebook:
+Installing latest version of pip
+# On Windows
+python -m pip install -U pip setuptools
+# On Mac OS X or Linux
+pip install -U pip setuptools
+
+Installing jupyter-notebook
+# Python2
+pip install jupyter
+# Python 3
+pip3 install jupyter
+
+Installing git
+# On Windows
+Use the installer present at https://git-scm.com/downloads
+#On Linux
+sudo apt-get install git [for Debian and Ubuntu]
+sudo yum install git-core [for Fedora]
+# On Mac OS X
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
+brew install git
+
+
+
+
+2. Downloading the Tasks
+Go to the terminal and type:
+git clone https://github.com/meettanmaysinha/Classroom-Experiments_EPFL.git
+
+
+
+
+3. Running the Task Notebooks
+Go to the terminal and type:
+cd Classroom-Experiments_EPFL
+jupyter-notebook
+
+A browser window will open up. Go to the folders:
+a) “AQ ProblemSolvingTask” to access notebooks for problem-solving task 1 (only go to the workbook for your assigned condition)
+b) “SC ProblemSolvingTask” to access notebooks for problem-solving task 2 (go to the workbook for your assigned condition)
+
+Once you are done with the two problem-solving tasks above, go to the folders:
+c) “AQ Posttest” to access two posttest notebooks related to problem-solving task 1 (“AQ_DA assessment” and “AQ_NT assessment”). You can solve these two posttest workbooks in any order.
+d) “SC Posttest” to access two posttest notebooks related to problem-solving task 2 (“AQ_DA assessment” and “AQ_NT assessment”). You can solve these two posttest workbooks in any order.
+
+
+[Note: To run any cell in the workbook, press Shift+Enter]
+
+[Note: As you work through the notebooks, they will be automatically saved to your downloaded folder]
