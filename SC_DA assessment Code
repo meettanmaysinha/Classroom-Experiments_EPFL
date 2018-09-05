@@ -40,7 +40,7 @@ dfA.corr(method='pearson')"""
 
 
 text3 = """\
-Officials of the canton have just received some raw medical data from the health department regarding the incidence of tuberculosis (TB) in various cities. Their goal is to figure out how to reduce the incidence of tuberculosis (TB) in the population. In order to do so, they first performed a correlational analysis of different data sources available to them from the canton, and found that there existed high positive correlation between the "incidence of tuberculosis (TB)" across various cities in the canton (expressed as percentage from 0 to 100), and "the foul (unpleasant) odors in the city as reported by residents (for e.g., those coming from industrial waste, medical waste and other household trash)" (measured on a scale of 0 to 1). In order to bring about change, a group of officials come up with the following ideas among which they should prioritize: 
+Officials of the canton have just received some raw medical data from the health department regarding the incidence of tuberculosis (TB) in various cities. Their goal is to figure out how to reduce the incidence of tuberculosis (TB) in the population. In order to do so, they first performed a correlational analysis of different data sources available to them from the canton, and found that there existed high positive correlation between the "incidence of tuberculosis (TB)" across various cities in the canton (expressed as percentage from 0 to 100), and "the foul (unpleasant) odors in the city as reported by residents (e.g., those coming from industrial waste, medical waste and other household trash)" (measured on a scale from 0 to 1). In order to bring about change, a group of officials come up with the following ideas among which they should prioritize: 
 
 A) **Strategy A**: implementing good urban planning techniques focusing on air-flow manipulation, green spaces and pedestrian-friendly streets. 
 
@@ -55,6 +55,8 @@ E) **Strategy E**: improving availability of vaccination in medical stores acros
 F) **Strategy F**: launching programs for chemical treatment of air in different areas of the city. 
 
 Rank order the strategies from the most to least appropriate for reducing the incidence of tuberculosis (TB), based on the evidence about the positive correlation presented at the beginning of the question."""
+
+
 
 code3 = """\
 strategy_ordering = "Set this to the ordering of strategies (for e.g., ACBDEF, ACFDBE etc)"
