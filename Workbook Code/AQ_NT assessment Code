@@ -32,7 +32,7 @@ dfA.head(n=5)"""
 
 
 text2 = """\
-Each of the 4 dataframes loaded above represents potential scenarios of wealth distribution in the city (in 100's). Run the cells to obtain the box-plot for these datasets below."""
+Each of the 3 dataframes loaded above represents potential scenarios of wealth distribution in the city (in 100's). Run the cells to obtain the box-plot for these datasets below."""
 
 code2 = """\
 from IPython.core.interactiveshell import InteractiveShell
