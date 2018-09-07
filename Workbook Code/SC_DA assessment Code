@@ -22,14 +22,14 @@ import seaborn as sns
 %matplotlib inline
 matplotlib.style.use('ggplot')
 
-d1 = "SC_DA assessment_SyrupIphoneDrugsTV.csv"
+d1 = "SC_DA assessment_SyrupIphoneDrugsYoutube.csv"
 df = pd.read_csv(d1)
 df"""
 
 
 
 text2 = """\
-The dataset above contains the **(i) Per capita consumption of high fructose corn syrup (in pounds), (ii) Apple Iphone sales (number of units sold (in 100's)), (iii) Number of juvenile drug arrests (in 100's), and (iv) Time spent watching TV and Youtube (in hours) across 200 cities in a country.** Run the cell below to obtain correlation table for the dataset. """
+The dataset above contains the **(i) Per capita consumption of high fructose corn syrup (in pounds), (ii) Apple Iphone sales (number of units sold (in 100's)), (iii) Number of juvenile drug arrests (in 100's), and (iv) Time spent watching Youtube videos (in hours) across 200 cities in a country.** Run the cell below to obtain correlation table for the dataset. """
 
 
 code2 = """\
