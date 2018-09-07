@@ -1,0 +1,72 @@
+import nbformat as nbf
+nb = nbf.v4.new_notebook()
+
+
+text1 = """\
+#CITY STATISTICS
+# Instructions / Notes: Read these carefully
+Read and execute each cell in order, without skipping forward.
+You **may** create new Jupyter notebook cells to use for e.g. testing, debugging, exploring, etc.- this is encouraged in fact! 
+**Just make sure that your final answer dataframes and answers use the set variables outlined below.**
+Have fun!"""
+
+code1 = """\
+# Run the following to import necessary packages and import dataset. Do not use any additional plotting libraries.
+import pandas as pd
+import numpy as np
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+import matplotlib
+import matplotlib.pyplot as plt
+import seaborn as sns
+%matplotlib inline
+matplotlib.style.use('ggplot')
+
+d1 = "SC_NT assessment_DeathsDivorceInequalityPovertyAtheism.csv"
+df = pd.read_csv(d1)
+df"""
+
+
+
+text2 = """\
+The dataset above contains the **(i) the number of people killed by an exploding gas cylinder (in 100's), (ii) divorce rate (number of people divorced (in 100's)), (iii) workforce inequality (rated on a scale of 1 to 700, with higher values indicating greater inequality in the population workforce), (iv) incidence of poverty (scored on a scale of 1 to 700, with higher values indicating greater poverty in the population), and (v) atheistic beliefs (scored on a scale of 1 to 700, with higher values indicating greater atheistic/non-religious beliefs across 200 cities in a population).** Run the cell below to obtain correlation table for the dataset. """
+
+
+code2 = """\
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+df.corr(method='pearson')"""
+
+
+text3 = """\
+Identify **meaningful** relationships among pairs of columns in this dataset. Append these pairs of related columns in the following form [column_x, column_y] to the variable below. Also provide a brief reasoning behind your answer selection. """
+
+
+code3 = """\
+# relationships.append(['column_x', 'column_y'])
+relationships = []
+relationships_reasoning = " "
+
+# do not touch
+relationships.sort()
+print(relationships)"""
+
+
+code4 = """\
+#If you need to implement any piece of code before finalizing your answer and reasoning, use this space. Don't erase your code segment from the workbook. In case you need any help with syntax, documentation file for the pandas python library (with search function in bottom left corner) is available at https://pandas.pydata.org/pandas-docs/stable/
+...
+...
+..."""
+
+
+
+nb['cells'] = [nbf.v4.new_markdown_cell(text1),
+               nbf.v4.new_code_cell(code1),
+               nbf.v4.new_markdown_cell(text2),
+	       nbf.v4.new_code_cell(code2),
+	       nbf.v4.new_markdown_cell(text3),
+               nbf.v4.new_code_cell(code3),
+	       nbf.v4.new_code_cell(code4)]
+
+
+nbf.write(nb, 'SC_NT assessment.ipynb')
