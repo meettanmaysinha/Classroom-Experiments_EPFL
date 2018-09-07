@@ -29,7 +29,7 @@ df"""
 
 
 text2 = """\
-The dataset above contains the **(i) the number of people killed by an exploding gas cylinder (in 100's), (ii) divorce rate (number of people divorced (in 100's)), (iii) workforce inequality (rated on a scale of 1 to 700, with higher values indicating greater inequality in the population workforce), (iv) incidence of poverty (scored on a scale of 1 to 700, with higher values indicating greater poverty in the population), and (v) atheistic beliefs (scored on a scale of 1 to 700, with higher values indicating greater atheistic/non-religious beliefs across 200 cities in a population).** Run the cell below to obtain correlation table for the dataset. """
+The dataset above contains the **(i) the number of people killed by an exploding gas cylinder (in 100's), (ii) divorce rate (number of people divorced (in 100's)), (iii) workforce gender inequality (rated on a scale of 1 to 700, with higher values indicating greater gender inequality in the population workforce), (iv) incidence of poverty (scored on a scale of 1 to 700, with higher values indicating greater poverty in the population), and (v) atheistic beliefs (scored on a scale of 1 to 700, with higher values indicating greater atheistic/non-religious beliefs across 200 cities in a population).** Run the cell below to obtain correlation table for the dataset. """
 
 
 code2 = """\
