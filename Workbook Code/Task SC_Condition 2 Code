@@ -3,7 +3,7 @@ nb = nbf.v4.new_notebook()
 
 
 text1 = """\
-#ICE CREAM SALES
+# ICE CREAM SALES
 # Instructions / Notes: Read these carefully
 Read and execute each cell in order, without skipping forward.
 You **may** create new Jupyter notebook cells to use for e.g. testing, debugging, exploring, etc.- this is encouraged in fact! 
@@ -28,6 +28,7 @@ df"""
 
 
 text2 = """\
+# TASK: 
 **The dataset above contains the ice cream sales, temperature, number of deaths by drowning and humidity level in a city during a timespan of 12 months.**
 Identify **meaningful** relationships among pairs of columns in this dataset. Append these pairs of related columns in the following form [column_x, column_y] to the variable below. Also provide a brief reasoning behind your answer selection."""
 
@@ -50,7 +51,7 @@ code4 = """\
 
 
 text3 = """\
-#CLUE
+# CLUE:
 **Some of the correlations you found above may be spurious: https://en.wikipedia.org/wiki/Spurious_relationship -- Only include meaningful correlations to the list!**
 If this clue changes your answer, try again below. Otherwise, if you are confident in your answer above, leave the following untouched."""
 
