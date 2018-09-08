@@ -3,7 +3,7 @@ nb = nbf.v4.new_notebook()
 
 
 text1 = """\
-#SOCIALIST MAYOR
+# SOCIALIST MAYOR
 # Instructions / Notes: Read these carefully
 Read and execute each cell in order, without skipping forward.
 You **may** create new Jupyter notebook cells to use for e.g. testing, debugging, exploring, etc.- this is encouraged in fact! 
@@ -57,7 +57,8 @@ plt.show()"""
 
 
 text3 = """\
- A new mayor has recently been elected by residents of the city. This mayor is a firm believer in economic theory of social organization, which says that the means of making, moving, and trading wealth should be owned or controlled by the community as a whole. Rank order the datasets reflecting potential scenarios of wealth distribution in the city (in 100's), from the most representative to the least representative of the mayor's socialist ideology. Also provide a brief reasoning behind your answer selection"""
+# TASK: 
+A new mayor has recently been elected by residents of the city. This mayor is a firm believer in economic theory of social organization. In simple words, this theory says that the means of making, moving, and trading wealth should be **owned or controlled by the community as a whole**. Rank order the datasets reflecting potential scenarios of wealth distribution in the city (in 100's), from the most representative to the least representative of the mayor's socialist ideology. Also provide a brief reasoning behind your answer selection"""
 
 code6 = """\
 scenario_ordering = "Set this to the ordering of scenarios (for e.g., BAC, CBA etc)"
