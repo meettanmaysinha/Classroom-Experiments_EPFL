@@ -3,11 +3,11 @@ nb = nbf.v4.new_notebook()
 
 
 text1 = """\
-#SALES OF A COMPANY
+# SALES OF A COMPANY
 # Instructions / Notes: Read these carefully
 Read and execute each cell in order, without skipping forward.
 You **may** create new Jupyter notebook cells to use for e.g. testing, debugging, exploring, etc.- this is encouraged in fact! 
-**Just make sure that your final answer dataframes and answers use the set variables outlined below.**
+**Just make sure that your final answer's dataframes and answers use the set variables outlined below.**
 Have fun!"""
 
 code1 = """\
@@ -54,6 +54,7 @@ dfC.describe()"""
 
 
 text3 = """\
+# TASK:
 Rank order the datasets from the weakest to the strongest dependency between the time and average sales. Set the following variable to the optimal ordering (for e.g., ABC, CBA etc). Also provide a brief reasoning behind your answer selection"""
 
 code5 = """\
@@ -67,7 +68,7 @@ code7 = """\
 ..."""
 
 text4 = """\
-#CLUE
+# CLUE: 
 **An Anscombe's Triplet is a modified version of an Anscombe's Quartet (https://en.wikipedia.org/wiki/Anscombe%27s_quartet) that has 3 datasets with nearly identical descriptive statistics but with very different appearance when plotted.**
 If this clue changes your answer, try again below. Otherwise, if you are confident in your answer above, leave the following untouched."""
 
