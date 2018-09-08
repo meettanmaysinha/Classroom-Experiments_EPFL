@@ -3,7 +3,7 @@ nb = nbf.v4.new_notebook()
 
 
 text1 = """\
-#CITY STATISTICS
+# CITY STATISTICS
 # Instructions / Notes: Read these carefully
 Read and execute each cell in order, without skipping forward.
 You **may** create new Jupyter notebook cells to use for e.g. testing, debugging, exploring, etc.- this is encouraged in fact! 
@@ -29,6 +29,7 @@ df"""
 
 
 text2 = """\
+# DATASET DESCRIPTION:
 The dataset above contains the **(i) Per capita consumption of high fructose corn syrup (in pounds), (ii) Apple Iphone sales (number of units sold (in 100's)), (iii) Number of juvenile drug arrests (in 100's), and (iv) Time spent watching Youtube videos (in hours) across 200 cities in a country.** Run the cell below to obtain correlation table for the dataset. """
 
 
@@ -39,6 +40,7 @@ df.corr(method='pearson')"""
 
 
 text3 = """\
+# TASK:
 Identify **meaningful** relationships among pairs of columns in this dataset. Append these pairs of related columns in the following form [column_x, column_y] to the variable below. Also provide a brief reasoning behind your answer selection. """
 
 

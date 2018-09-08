@@ -3,7 +3,7 @@ nb = nbf.v4.new_notebook()
 
 
 text1 = """\
-#CITY STATISTICS
+# CITY STATISTICS
 # Instructions / Notes: Read these carefully
 Read and execute each cell in order, without skipping forward.
 You **may** create new Jupyter notebook cells to use for e.g. testing, debugging, exploring, etc.- this is encouraged in fact! 
@@ -29,6 +29,7 @@ df"""
 
 
 text2 = """\
+# DATASET DESCRIPTION:
 The dataset above contains the **(i) the number of people killed by an exploding gas cylinder (in 100's), (ii) divorce rate (number of people divorced (in 100's)), (iii) workforce gender inequality (rated on a scale of 1 to 700, with higher values indicating greater gender inequality in the population workforce), (iv) incidence of poverty (scored on a scale of 1 to 700, with higher values indicating greater poverty in the population), and (v) atheistic beliefs (scored on a scale of 1 to 700, with higher values indicating greater atheistic/non-religious beliefs across 200 cities in a population).** Run the cell below to obtain correlation table for the dataset. """
 
 
@@ -39,6 +40,7 @@ df.corr(method='pearson')"""
 
 
 text3 = """\
+# TASK: 
 Identify **meaningful** relationships among pairs of columns in this dataset. Append these pairs of related columns in the following form [column_x, column_y] to the variable below. Also provide a brief reasoning behind your answer selection. """
 
 
