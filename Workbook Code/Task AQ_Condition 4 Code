@@ -62,7 +62,9 @@ dataset_dependency_ordering = "Write your ordering of datasets here"
 dataset_dependency_ordering_reasoning = "Write your reasoning here" """
 
 code7 = """\
-#If you need to implement any piece of code before finalizing your answer and reasoning, use this space. Don't erase your code segment from the workbook. In case you need any help with syntax, documentation file for the pandas python library (with search function in bottom left corner) is available at https://pandas.pydata.org/pandas-docs/stable/
+#If you need to implement any piece of code before finalizing your answer and reasoning, use this space. 
+#Don't erase your code segment from the workbook. 
+#In case you need any help with syntax, documentation file for the pandas python library (with search function in bottom left corner) is available at https://pandas.pydata.org/pandas-docs/stable/
 ...
 ...
 ..."""
@@ -79,7 +81,9 @@ dataset_dependency_ordering_revised = "Write your ordering of datasets here"
 dataset_dependency_ordering_revised_reasoning = "Write your reasoning here"  """
 
 code8 = """\
-#If you need to implement any piece of code before finalizing your answer and reasoning, use this space. Don't erase your code segment from the workbook. In case you need any help with syntax, documentation file for the pandas python library (with search function in bottom left corner) is available at https://pandas.pydata.org/pandas-docs/stable/
+#If you need to implement any piece of code before finalizing your answer and reasoning, use this space. 
+#Don't erase your code segment from the workbook. 
+#In case you need any help with syntax, documentation file for the pandas python library (with search function in bottom left corner) is available at https://pandas.pydata.org/pandas-docs/stable/
 ...
 ...
 ..."""
