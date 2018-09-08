@@ -38,21 +38,24 @@ Each of the 3 dataframes loaded above represents **potential scenarios of wealth
 code2 = """\
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
-#You will receive the visualization of box-plot as an output, which is a method for graphically depicting groups of numerical data through their quartiles.
+#You will receive the visualization of box-plot as an output.
+#Boxplot is a method for graphically depicting groups of numerical data through their quartiles.
 dfA.boxplot()
 plt.show()"""
 
 code3 = """\
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
-#You will receive the visualization of box-plot as an output, which is a method for graphically depicting groups of numerical data through their quartiles.
+#You will receive the visualization of box-plot as an output.
+#Boxplot is a method for graphically depicting groups of numerical data through their quartiles.
 dfB.boxplot()
 plt.show()"""
 
 code4 = """\
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
-#You will receive the visualization of box-plot as an output, which is a method for graphically depicting groups of numerical data through their quartiles.
+#You will receive the visualization of box-plot as an output.
+#Boxplot is a method for graphically depicting groups of numerical data through their quartiles.
 dfC.boxplot()
 plt.show()"""
 
@@ -66,7 +69,9 @@ scenario_ordering = "Set this to the ordering of scenarios (for e.g., BAC, CBA e
 scenario_ordering_reasoning = "Write your reasoning here" """
 
 code7 = """\
-#If you need to implement any piece of code before finalizing your answer and reasoning, use this space. Don't erase your code segment from the workbook. In case you need any help with syntax, documentation file for the pandas python library (with search function in bottom left corner) is available at https://pandas.pydata.org/pandas-docs/stable/
+#If you need to implement any piece of code before finalizing your answer and reasoning, use this space. 
+#Don't erase your code segment from the workbook. 
+#In case you need any help with syntax, documentation file for the pandas python library (with search function in bottom left corner) is available at https://pandas.pydata.org/pandas-docs/stable/
 ...
 ...
 ..."""
