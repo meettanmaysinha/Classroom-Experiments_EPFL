@@ -33,7 +33,7 @@ dfA.head(n=5)"""
 
 text2 = """\
 # DATASET DESCRIPTION:
-Each of the 3 dataframes loaded above represents **potential scenarios of wealth distribution in the city (in 100's)**. Run the cells to obtain the box-plot for these datasets below."""
+Each of the 3 dataframes loaded above represents **potential scenarios of wealth distribution in the city (in 100's)**, reflecting the money owned/possessed by a sample of 2484 randomly selected individuals in the city. Run the cells to obtain the box-plot for these datasets below."""
 
 code2 = """\
 from IPython.core.interactiveshell import InteractiveShell
@@ -62,7 +62,7 @@ plt.show()"""
 
 text3 = """\
 # TASK: 
-A new mayor has recently been elected by residents of the city. This mayor is a firm believer in economic theory of social organization. In simple words, this theory says that the means of making, moving, and trading wealth should be **owned or controlled by the community as a whole**. Rank order the datasets reflecting potential scenarios of wealth distribution in the city (in 100's), from **the most representative to the least representative** of the mayor's socialist ideology. Also provide a brief reasoning behind your answer selection"""
+A new mayor has recently been elected by residents of the city. This mayor is a firm believer in economic theory of social organization. In simple words, this theory says that the means of making, moving, and trading wealth should be **owned or controlled by the community as a whole**. Rank order the datasets reflecting potential scenarios of wealth distribution in the city (in 100's), from **the most representative to the least representative** of the mayor's **socialist** ideology. Also provide a brief reasoning behind your answer selection"""
 
 code6 = """\
 scenario_ordering = "Set this to the ordering of scenarios (for e.g., BAC, CBA etc)"
