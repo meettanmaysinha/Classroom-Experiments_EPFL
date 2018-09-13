@@ -55,11 +55,12 @@ dfC.describe()"""
 
 text3 = """\
 # TASK:
-Rank order the datasets from the **weakest to the strongest dependency** between the time and average sales. Set the following variable to the optimal ordering (for e.g., ABC, CBA etc). Also provide a brief reasoning behind your answer selection"""
+Rank order the datasets from the **weakest to the strongest dependency** between the time and average sales. Set the following variable to the optimal ordering (for e.g., ABC, CBA etc). Also provide a brief reasoning behind your answer selection. Finally, tell us whether you used information about the descriptive statistics (obtained by running the cells above) in reasoning about your answer."""
 
 code5 = """\
 dataset_dependency_ordering = "Write your ordering of datasets here"
-dataset_dependency_ordering_reasoning = "Write your reasoning here" """
+dataset_dependency_ordering_reasoning = "Write your reasoning here" 
+used_descriptive_statistics_in_reasoning = "Set this variable to yes or no" """
 
 code7 = """\
 #If you need to implement any piece of code before finalizing your answer and reasoning, use this space. 

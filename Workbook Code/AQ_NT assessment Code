@@ -62,11 +62,14 @@ plt.show()"""
 
 text3 = """\
 # TASK: 
-A new mayor has recently been elected by residents of the city. This mayor is a firm believer in economic theory of social organization. In simple words, this theory says that the means of making, moving, and trading wealth should be **owned or controlled by the community as a whole**. Rank order the datasets reflecting potential scenarios of wealth distribution in the city (in 100's), from **the most representative to the least representative** of the mayor's **socialist** ideology. Also provide a brief reasoning behind your answer selection"""
+A new mayor has recently been elected by residents of the city. This mayor is a firm believer in economic theory of social organization. In simple words, this theory says that the means of making, moving, and trading wealth should be **owned or controlled by the community as a whole**. Rank order the datasets reflecting potential scenarios of wealth distribution in the city (in 100's), from **the most representative to the least representative** of the mayor's **socialist** ideology. Also provide a brief reasoning behind your answer selection. Finally, tell us whether you used information about the boxplots (obtained by running the cells above) in reasoning about your answer."""
 
 code6 = """\
 scenario_ordering = "Set this to the ordering of scenarios (for e.g., BAC, CBA etc)"
-scenario_ordering_reasoning = "Write your reasoning here" """
+scenario_ordering_reasoning = "Write your reasoning here"
+used_boxplots_in_reasoning = "Set this variable to yes or no" """
+
+
 
 code7 = """\
 #If you need to implement any piece of code before finalizing your answer and reasoning, use this space. 

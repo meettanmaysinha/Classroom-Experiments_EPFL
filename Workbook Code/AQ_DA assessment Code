@@ -53,11 +53,13 @@ dfB.corr(method='pearson')"""
 
 text3 = """\
 # TASK:
-People from which canton **seem wiser** in their long-term financial planning? Also provide a brief reasoning behind your answer selection"""
+People from which canton **seem wiser** in their long-term financial planning? Also provide a brief reasoning behind your answer selection. Finally, tell us whether you used information about the descriptive statistics (obtained by running the cells above) in reasoning about your answer."""
 
 code4 = """\
 canton = "Set this to A or B"
-canton_reasoning = "Write your reasoning here" """
+canton_reasoning = "Write your reasoning here"
+used_descriptive_statistics_in_reasoning = "Set this variable to yes or no" """
+
 
 code5 = """\
 #If you need to implement any piece of code before finalizing your answer and reasoning, use this space. 
