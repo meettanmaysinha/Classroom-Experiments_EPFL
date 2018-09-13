@@ -41,7 +41,7 @@ df.corr(method='pearson')"""
 
 text3 = """\
 # TASK: 
-Identify **meaningful** relationships among pairs of columns in this dataset. Append these pairs of related columns in the following form [column_x, column_y] to the variable below. Also provide a brief reasoning behind your answer selection. """
+Identify **strong** (i.e., correlation coefficient > |0.7|) and **meaningful** relationships among pairs of columns in this dataset. Append these pairs of related columns in the following form [column_x, column_y] to the variable below. Also provide a brief reasoning behind your answer selection. """
 
 
 code3 = """\
