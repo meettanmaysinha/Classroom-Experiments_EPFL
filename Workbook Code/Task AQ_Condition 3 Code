@@ -65,12 +65,11 @@ dataset_dependency_ordering_reasoning = "Write your reasoning here"
 used_descriptive_statistics_in_reasoning = "Set this variable to yes or no" """
 
 code7 = """\
-#If you need to implement any piece of code before finalizing your answer and reasoning, use this space. 
-#Don't erase your code segment from the workbook. 
+#If you need to implement any piece of code before finalizing your answer and reasoning, use this space. Don't erase your code segment from the workbook. 
 #In case you need any help with syntax, documentation file for the:
-#a) pandas library (with search function in bottom left corner) - https://pandas.pydata.org/pandas-docs/stable/
-#b) numpy library (with search function in right corner) - https://docs.scipy.org/doc/numpy/user/index.html
-#c) matplotlib library (with search function in top right corner) - https://matplotlib.org/contents.html
+#a) pandas library - https://pandas.pydata.org/pandas-docs/stable/
+#b) numpy library  - https://docs.scipy.org/doc/numpy/user/index.html
+#c) matplotlib library - https://matplotlib.org/contents.html
 # DO NOT USE GOOGLE SEARCH!!!
 ...
 ...
@@ -90,13 +89,11 @@ dataset_dependency_ordering_revised = "Write your ordering of datasets here"
 dataset_dependency_ordering_revised_reasoning = "Write your reasoning here"  """
 
 code8 = """\
-#If you need to implement any piece of code before finalizing your answer and reasoning, use this space. 
-#Don't erase your code segment from the workbook. 
+#If you need to implement any piece of code before finalizing your answer and reasoning, use this space. Don't erase your code segment from the workbook. 
 #In case you need any help with syntax, documentation file for the:
-#a) pandas library (with search function in bottom left corner) - https://pandas.pydata.org/pandas-docs/stable/
-#b) numpy library (with search function in right corner) - https://docs.scipy.org/doc/numpy/user/index.html
-#c) matplotlib library (with search function in top right corner) - https://matplotlib.org/contents.html
-# DO NOT USE GOOGLE SEARCH!!!
+#a) pandas library - https://pandas.pydata.org/pandas-docs/stable/
+#b) numpy library  - https://docs.scipy.org/doc/numpy/user/index.html
+#c) matplotlib library - https://matplotlib.org/contents.html
 # DO NOT USE GOOGLE SEARCH!!!
 ...
 ...
